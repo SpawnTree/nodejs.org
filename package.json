@@ -15,7 +15,9 @@
     "test:unit": "tape tests/**/*.test.js | faucet",
     "test:smoke": "tape tests/*.smoketest.js | faucet",
     "test:snyk": "snyk test",
-    "postinstall": "snyk protect"
+    "postinstall": "snyk protect",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": "nodejs/nodejs.org",
   "author": "Node.js Website Working Group",
@@ -57,7 +59,7 @@
     "request": "2.79.0",
     "require-dir": "0.3.1",
     "semver": "5.3.0",
-    "snyk": "1.23.2",
+    "snyk": "^1.46.0",
     "st": "1.2.0",
     "strftime": "0.10.0"
   },
