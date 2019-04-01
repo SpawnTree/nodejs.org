@@ -36,7 +36,7 @@
     "chokidar": "1.6.1",
     "handlebars": "4.0.6",
     "html-to-text": "3.0.0",
-    "js-yaml": "3.7.0",
+    "js-yaml": "3.13.0",
     "junk": "2.0.0",
     "lodash.defaultsdeep": "4.6.0",
     "marked": "0.3.6",
@@ -57,7 +57,7 @@
     "request": "2.79.0",
     "require-dir": "0.3.1",
     "semver": "5.3.0",
-    "snyk": "1.23.2",
+    "snyk": "1.76.0",
     "st": "1.2.0",
     "strftime": "0.10.0"
   },
